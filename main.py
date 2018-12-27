@@ -8,11 +8,9 @@ dead = 10
 deadband = [center - dead, center + dead]
 wii = nunchuck()
 
-# Raw output data from nunchuck.
 def getRaw():
   return wii.getJoystickY()
 
-# Convert raw data.
 def getValue():
   value = getRaw()
   # Deadband [118, 138].
