@@ -1,7 +1,7 @@
 # WiiNunchuck
 Python code to read data from the Wii Nunchuk.
 I have taken the code from Boeeerb[1] project Nunchuck/
-[2], and adapted it to read data from the Wii Nunchuck with no encryption. Robert Eisele[3] has provided the project Fritzing/Nunchuk/[4] and documentation [5].
+[2], and adapted it to read data from the Wii Nunchuck with no encryption. Robert Eisele[3] has provided the project Fritzing/Nunchuk/[4] and documentation [5] to read data from the Wii Nunchuck with no encryption.
 
 
 ## References:
