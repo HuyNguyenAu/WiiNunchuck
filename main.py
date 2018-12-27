@@ -18,10 +18,10 @@ def getValue():
     return 0
   # Positive (138, 255].
   elif value > deadband[1] and value <= upperBound:  
-    return (value / (upperBound - deadband[1]))
+    return (float)((value - deadband[1]) / (upperBound - deadband[1]))
   # Negative [0, 118).
   elif value >= lowerBound and value < deadband[0]:  
-    return -1 * ((deadband[0]) - value / deadband[0])
+    return (float)(-1 * ((deadband[0]) - value / deadband[0]))
   return 0
 
 def main():
