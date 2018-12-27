@@ -1,4 +1,4 @@
-from  wiiNunchuck import nunchuck
+from nunchuck import nunchuck
 import time
 
 wii = nunchuck()
