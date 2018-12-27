@@ -5,7 +5,7 @@ wii = nunchuck()
 
 def main():
  while True:
-  print(wii.getButtonC())
+  print(wii.getJoystickY())
   time.sleep(0.5)
 
 if __name__== "__main__":
