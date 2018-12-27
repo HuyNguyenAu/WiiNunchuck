@@ -19,3 +19,12 @@ def init():
     bus.write_byte_data(dev_addr, 0xF0, 0x55)
     bus.write_byte_data(dev_addr, 0xFB, 0x00)
     time.sleep(delay)
+    
+def main():
+    init()
+    
+    while True:
+        print(getJoystickX())
+
+if __name__== "__main__":
+    main()
